@@ -1,395 +1,47 @@
-<!DOCTYPE html>
-<html lang="kk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team IT Project | Командалық Жоба</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
+<div align="center">
 
-    html {
-      scroll-behavior: smooth;
-    }
+# 🚀 Team Project: Web Development
 
-    body {
-      background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #311042 100%);
-      color: #f8fafc;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      overflow-x: hidden;
-    }
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge&logo=appveyor" alt="Status">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 
-    header {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      padding: 20px 8%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
+✨ *Бұл жоба — командалық жұмыс арқылы жасалған заманауи веб-сайт.*
 
-    .logo {
-      font-size: 1.5rem;
-      font-weight: 700;
-      background: linear-gradient(45deg, #38bdf8, #818cf8, #c084fc);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
+</div>
 
-    nav ul {
-      display: flex;
-      list-style: none;
-      gap: 30px;
-    }
+---
 
-    nav a {
-      color: #94a3b8;
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.3s ease;
-    }
+## 📌 Жоба туралы
+Бұл командалық жоба әрбір қатысушының жеке үлесін біріктіріп, ортақ веб-парақша құру мақсатында жасалды. Мұнда семантикалық HTML5 тегтері, заманауи CSS стильдері және интерактивті элементтер қолданылды.
 
-    nav a:hover {
-      color: #38bdf8;
-      text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
-    }
+---
 
-    .hero {
-      text-align: center;
-      padding: 80px 20px 40px;
-    }
+## 👥 Команда мүшелері
 
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      margin-bottom: 15px;
-      background: linear-gradient(to right, #ffffff, #cbd5e1);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+| Аты-жөні | Ролі / Атқарган жұмысы | Ветка (Branch) |
+| :--- | :--- | :--- |
+| **Тұрғали Жанерке** | Team Lead / Капитан & Басты интеграция | `main` |
+| **Олжабай Айғаным** | Developer / Басты бет & Құрылым | `feature/aiganym` |
+| **Құрбанәлі Нұрсайын** | Developer / Жеке блок & CSS дизайн | `feature/nursayin` |
+| **Теміржан Нұрислам** | Developer / Секциялар & Анимациялар | `feature/nurislam` |
 
-    .hero p {
-      font-size: 1.2rem;
-      color: #94a3b8;
-      max-width: 600px;
-      margin: 0 auto;
-    }
+---
 
-    .badge {
-      display: inline-block;
-      padding: 6px 16px;
-      background: rgba(56, 189, 248, 0.1);
-      border: 1px solid rgba(56, 189, 248, 0.3);
-      color: #38bdf8;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
+## 🛠️ Қолданылған технологиялар
+* **HTML5** — Сайттың құрылымы мен семантикасы.
+* **CSS3** — Заманауи дизайн, Flexbox/Grid, анимациялар.
+* **JavaScript** — Интерактивтілік пен динамикалық элементтер.
+* **Git / GitHub** — Командалық жұмыс және версияларды басқару.
 
-    .cta-buttons {
-      margin-top: 25px;
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-    }
+---
 
-    .btn-primary {
-      background: linear-gradient(135deg, #38bdf8, #818cf8);
-      color: #0f172a;
-      padding: 12px 26px;
-      border-radius: 12px;
-      font-weight: 600;
-      text-decoration: none;
-      box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
-      transition: all 0.3s ease;
-    }
+## ⚙️ Жобаны қалай іске қосу керек?
 
-    .btn-primary:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 15px 25px rgba(56, 189, 248, 0.5);
-    }
+Жергілікті компьютерге көшіріп көру үшін терминалға мына командаларды жазыңыз:
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-
-    .section-title {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 50px;
-      position: relative;
-    }
-
-    .section-title::after {
-      content: '';
-      width: 60px;
-      height: 4px;
-      background: linear-gradient(90deg, #38bdf8, #c084fc);
-      position: absolute;
-      bottom: -10px;
-      left: 50%;
-      transform: translateX(-50%);
-      border-radius: 2px;
-    }
-
-    .team-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 30px;
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 20px;
-      padding: 30px 20px;
-      text-align: center;
-      backdrop-filter: blur(10px);
-      transition: all 0.4s ease;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 4px;
-      background: linear-gradient(90deg, #38bdf8, #818cf8);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-      border-color: rgba(56, 189, 248, 0.3);
-    }
-
-    .card:hover::before {
-      opacity: 1;
-    }
-
-    .avatar-wrapper {
-      position: relative;
-      width: 110px;
-      height: 110px;
-      margin: 0 auto 20px;
-    }
-
-    .avatar-img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 3px solid rgba(56, 189, 248, 0.5);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s ease;
-      background-color: #ffffff;
-    }
-
-    .card:hover .avatar-img {
-      transform: scale(1.05);
-      border-color: #38bdf8;
-    }
-
-    .card h3 {
-      font-size: 1.3rem;
-      color: #f8fafc;
-      margin-bottom: 5px;
-    }
-
-    .card .role {
-      font-size: 0.9rem;
-      color: #38bdf8;
-      font-weight: 600;
-      margin-bottom: 15px;
-    }
-
-    .card p {
-      font-size: 0.88rem;
-      color: #94a3b8;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-
-    .github-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 18px;
-      background: rgba(255, 255, 255, 0.08);
-      color: #f8fafc;
-      text-decoration: none;
-      border-radius: 12px;
-      font-size: 0.85rem;
-      transition: background 0.3s ease;
-    }
-
-    .github-link:hover {
-      background: rgba(56, 189, 248, 0.2);
-      color: #38bdf8;
-    }
-
-    .skills-section {
-      margin-top: 60px;
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      border-radius: 20px;
-      padding: 30px;
-    }
-
-    .skills-grid {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-
-    .skill-tag {
-      background: rgba(129, 140, 248, 0.15);
-      border: 1px solid rgba(129, 140, 248, 0.3);
-      color: #a5b4fc;
-      padding: 8px 18px;
-      border-radius: 30px;
-      font-size: 0.9rem;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      transition: all 0.3s ease;
-    }
-
-    .skill-tag:hover {
-      background: rgba(56, 189, 248, 0.25);
-      color: #38bdf8;
-      transform: translateY(-2px);
-    }
-
-    footer {
-      background: rgba(15, 23, 42, 0.8);
-      border-top: 1px solid rgba(255, 255, 255, 0.05);
-      padding: 25px 20px;
-      text-align: center;
-      color: #64748b;
-      font-size: 0.9rem;
-      margin-top: 60px;
-    }
-
-    @media (max-width: 768px) {
-      .hero h1 { font-size: 2.2rem; }
-      header { padding: 15px 5%; }
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <div class="logo">
-      <i class="fa-solid fa-code"></i> TeamDevs
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#about">Жоба туралы</a></li>
-        <li><a href="#team">Команда</a></li>
-        <li><a href="#skills">Дағдылар</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero" id="about">
-    <span class="badge"><i class="fa-solid fa-rocket"></i> Git & GitHub Practical Project</span>
-    <h1>Практикалық Командалық Жоба</h1>
-    <p>Git веткалары, Pull Request және Code Review мүмкіндіктерін қолдану арқылы жасалған ортақ жоба.</p>
-    <div class="cta-buttons">
-      <a href="#team" class="btn-primary"><i class="fa-solid fa-users"></i> Командамен танысу</a>
-    </div>
-  </section>
-
-  <main class="container" id="team">
-    <h2 class="section-title">Біздің Команда</h2>
-
-    <div class="team-grid">
-      
-      <div class="card">
-        <div class="avatar-wrapper">
-          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80" alt="Team Lead" class="avatar-img">
-        </div>
-        <h3>Team Lead</h3>
-        <div class="role">Жоба Капитаны</div>
-        <p>Репозиторийді басқару, код сапасын тексеру және README файлын реттеу.</p>
-        <a href="#" class="github-link"><i class="fa-brands fa-github"></i> GitHub Profile</a>
-      </div>
-
-      <div class="card">
-        <div class="avatar-wrapper">
-          <img src="https://cdn.worldvectorlogo.com/logos/a2176dee-f3ba-4e32-b5d1-ecd317b747ce/github-4.svg" alt="Олжабай Айғаным" class="avatar-img">
-        </div>
-        <h3>Олжабай Айғаным</h3>
-        <div class="role">Frontend Developer (П-25-71гб)</div>
-        <p>Интерфейс дизайн, HTML/CSS құрылымы және визуалды элементтерді әзірлеу.</p>
-        <a href="https://github.com/aiganym001" target="_blank" class="github-link"><i class="fa-brands fa-github"></i> @aiganym001</a>
-      </div>
-
-      <div class="card">
-        <div class="avatar-wrapper">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80" alt="Құрбаналиев Нұрсайын" class="avatar-img">
-        </div>
-        <h3>Құрбаналиев Нұрсайын</h3>
-        <div class="role">Fullstack Developer</div>
-        <p>Навигация логикасы, интерактивті батырмалар, скрипттер және дағдылар бөлімін әзірлеу.</p>
-        <a href="https://github.com/kurbanalievnursayin10-wq" target="_blank" class="github-link"><i class="fa-brands fa-github"></i> @kurbanalievnursayin10-wq</a>
-      </div>
-
-      <div class="card">
-        <div class="avatar-wrapper">
-          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80" alt="Темірхан Нұрислам" class="avatar-img">
-        </div>
-        <h3>Темірхан Нұрислам</h3>
-        <div class="role">UI/UX Designer & Frontend</div>
-        <p>Интерфейсті әрлеу, анимациялық эффектілер, футер дизайн және адаптивті адаптация.</p>
-        <a href="https://github.com/temirkhannurislam1-cloud" target="_blank" class="github-link"><i class="fa-brands fa-github"></i> @temirkhannurislam1-cloud</a>
-      </div>
-
-    </div>
-
-    <div class="skills-section" id="skills">
-      <h3 style="text-align: center; margin-bottom: 20px; color: #cbd5e1;">Қолданылған Технологиялар мен Дағдылар</h3>
-      <div class="skills-grid">
-        <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5 Semantic</span>
-        <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS3 Glassmorphism</span>
-        <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript Basics</span>
-        <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git Flow & Branches</span>
-        <span class="skill-tag"><i class="fa-brands fa-github"></i> GitHub Pull Requests</span>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 TeamDevs Project. Барлық құқықтар қорғалған. Әзірлеген: Олжабай Айғаным, Құрбаналиев Нұрсайын, Темірхан Нұрислам.</p>
-  </footer>
-
-</body>
-</html>
+1. Репозиторийді клондау:
+   ```bash
+   git clone [https://github.com/turgalizhanerke/team-project.git](https://github.com/turgalizhanerke/team-project.git)
